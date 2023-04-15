@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --black: #000;
 }
 
@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--black);
+  background-color: #fff;
 }
 
 .overlay {
@@ -59,4 +59,38 @@ button {
 
 .tertiary {
   background: green;
+} */
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+.modal {
+  border: 2px solid black;
+  color: blue;
+  background-color: red;
+  width: 600px;
+  height: 400px;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 20%;
+}
+.modal1 {
+  border: 2px solid black;
+  color: blue;
+  background-color: cyan;
+  width: 600px;
+  height: 400px;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
 }
